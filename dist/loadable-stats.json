@@ -2,23 +2,23 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.2",
-  "hash": "233c37d4242defc79d74",
+  "hash": "efc9a0c8dd9b764a6f0e",
   "publicPath": "/dist",
   "outputPath": "/camphouse/dist",
   "assetsByChunkName": {
-    "main": "client-bundle.js",
-    "pages-Home-index": "pages-Home-index.client-bundle.js",
-    "pages-ListYourSpace-index": [
-      "pages-ListYourSpace-index.client-bundle.js",
-      "pages-ListYourSpace-index.c2dcfe95027460d0c1e6.hot-update.js"
+    "main": [
+      "client-bundle.js",
+      "main.a886ab8ae1804beec2c0.hot-update.js"
     ],
+    "pages-Home-index": "pages-Home-index.client-bundle.js",
+    "pages-ListYourSpace-index": "pages-ListYourSpace-index.client-bundle.js",
     "pages-NotFound": "pages-NotFound.client-bundle.js",
     "vendors~pages-ListYourSpace-index": "vendors~pages-ListYourSpace-index.client-bundle.js"
   },
   "assets": [
     {
-      "name": "c2dcfe95027460d0c1e6.hot-update.json",
-      "size": 67,
+      "name": "a886ab8ae1804beec2c0.hot-update.json",
+      "size": 46,
       "chunks": [],
       "chunkNames": [],
       "info": {
@@ -29,7 +29,7 @@
     },
     {
       "name": "client-bundle.js",
-      "size": 3913292,
+      "size": 3913093,
       "chunks": [
         "main"
       ],
@@ -37,6 +37,21 @@
         "main"
       ],
       "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.a886ab8ae1804beec2c0.hot-update.js",
+      "size": 28496,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
@@ -49,21 +64,6 @@
         "pages-Home-index"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "pages-ListYourSpace-index.c2dcfe95027460d0c1e6.hot-update.js",
-      "size": 11925,
-      "chunks": [
-        "pages-ListYourSpace-index"
-      ],
-      "chunkNames": [
-        "pages-ListYourSpace-index"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -100,7 +100,7 @@
         "vendors~pages-ListYourSpace-index"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,
@@ -110,7 +110,8 @@
         "main"
       ],
       "assets": [
-        "client-bundle.js"
+        "client-bundle.js",
+        "main.a886ab8ae1804beec2c0.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -122,7 +123,8 @@
         "main"
       ],
       "assets": [
-        "client-bundle.js"
+        "client-bundle.js",
+        "main.a886ab8ae1804beec2c0.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -144,8 +146,7 @@
       ],
       "assets": [
         "vendors~pages-ListYourSpace-index.client-bundle.js",
-        "pages-ListYourSpace-index.client-bundle.js",
-        "pages-ListYourSpace-index.c2dcfe95027460d0c1e6.hot-update.js"
+        "pages-ListYourSpace-index.client-bundle.js"
       ],
       "children": {},
       "childAssets": {}

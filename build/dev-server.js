@@ -4,10 +4,13 @@ const webConfig = require('./webpack.config');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotServerMiddleware = require('webpack-hot-server-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
+const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 9000;
 const compiler = webpack(webConfig)
+
+app.use(express.static(path.resolve(__dirname, '../public')));
 
 app.use(webpackDevMiddleware(compiler, {
   serverSideRender: true,

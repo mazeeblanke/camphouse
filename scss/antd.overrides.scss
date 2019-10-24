@@ -100,6 +100,8 @@ $cyan:    #17a2b8 !default;
 // // An override for the html selector for theme prefixes
 // $html-selector: html;
 
+$font-family: 'apercu', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
 $primary-color: $purple; // primary color for all components
 $link-color: #1890ff; // link color
 $success-color: #52c41a; // success state color
