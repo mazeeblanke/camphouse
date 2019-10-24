@@ -1,0 +1,16 @@
+version: '3'
+services:
+  camphouse:
+    build:
+      context: .
+      dockerfile: dockerfile  
+    ports:
+      - "2000:2000"
+    volumes:
+      - /camphouse/node_modules
+      - .:/camphouse
+    environment:
+      PORT: 2000
+      NODE_ENV: development
+    deploy:
+      replicas: 1

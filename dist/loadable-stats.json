@@ -1,0 +1,172 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.2",
+  "hash": "233c37d4242defc79d74",
+  "publicPath": "/dist",
+  "outputPath": "/camphouse/dist",
+  "assetsByChunkName": {
+    "main": "client-bundle.js",
+    "pages-Home-index": "pages-Home-index.client-bundle.js",
+    "pages-ListYourSpace-index": [
+      "pages-ListYourSpace-index.client-bundle.js",
+      "pages-ListYourSpace-index.c2dcfe95027460d0c1e6.hot-update.js"
+    ],
+    "pages-NotFound": "pages-NotFound.client-bundle.js",
+    "vendors~pages-ListYourSpace-index": "vendors~pages-ListYourSpace-index.client-bundle.js"
+  },
+  "assets": [
+    {
+      "name": "c2dcfe95027460d0c1e6.hot-update.json",
+      "size": 67,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "client-bundle.js",
+      "size": 3913292,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pages-Home-index.client-bundle.js",
+      "size": 1346,
+      "chunks": [
+        "pages-Home-index"
+      ],
+      "chunkNames": [
+        "pages-Home-index"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pages-ListYourSpace-index.c2dcfe95027460d0c1e6.hot-update.js",
+      "size": 11925,
+      "chunks": [
+        "pages-ListYourSpace-index"
+      ],
+      "chunkNames": [
+        "pages-ListYourSpace-index"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "pages-ListYourSpace-index.client-bundle.js",
+      "size": 14400,
+      "chunks": [
+        "pages-ListYourSpace-index"
+      ],
+      "chunkNames": [
+        "pages-ListYourSpace-index"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pages-NotFound.client-bundle.js",
+      "size": 1468,
+      "chunks": [
+        "pages-NotFound"
+      ],
+      "chunkNames": [
+        "pages-NotFound"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "vendors~pages-ListYourSpace-index.client-bundle.js",
+      "size": 1053477,
+      "chunks": [
+        "vendors~pages-ListYourSpace-index"
+      ],
+      "chunkNames": [
+        "vendors~pages-ListYourSpace-index"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "client-bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "client-bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Home-index": {
+      "chunks": [
+        "pages-Home-index"
+      ],
+      "assets": [
+        "pages-Home-index.client-bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-ListYourSpace-index": {
+      "chunks": [
+        "vendors~pages-ListYourSpace-index",
+        "pages-ListYourSpace-index"
+      ],
+      "assets": [
+        "vendors~pages-ListYourSpace-index.client-bundle.js",
+        "pages-ListYourSpace-index.client-bundle.js",
+        "pages-ListYourSpace-index.c2dcfe95027460d0c1e6.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-NotFound": {
+      "chunks": [
+        "pages-NotFound"
+      ],
+      "assets": [
+        "pages-NotFound.client-bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
